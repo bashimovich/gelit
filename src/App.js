@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MyRoutes from "./routes/MyRoutes";
+import './App.css'
+import './assets/lang/i18n'
+
 
 function App() {
-  return (
-    <div className="App">
-     <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1> 
-    </div>
-  );
+    return ( 
+      <div className = "App" >
+        <MyRoutes / >
+      </div>
+    );
 }
 
 export default App;

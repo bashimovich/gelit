@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+@font-face {
+  font-family: 'Sofia Sans';
+  src: url('./assets/fonts/SofiaSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
