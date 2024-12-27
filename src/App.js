@@ -5,11 +5,11 @@ import './assets/lang/i18n'
 
 
 function App() {
-    return ( 
-      <div className = "App" >
-        <MyRoutes / >
-      </div>
-    );
+  return ( 
+    <div className="App">
+      <MyRoutes />
+    </div>
+  );
 }
 
 export default App;

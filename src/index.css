@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 @font-face {
   font-family: 'Sofia Sans';
   src: url('./assets/fonts/SofiaSans-VariableFont_wght.ttf') format('truetype');
